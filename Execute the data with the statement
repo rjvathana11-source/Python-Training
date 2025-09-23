@@ -1,0 +1,65 @@
+Write a program to execute the datas with the statement.
+
+Input Format
+
+first input corresponds to integer
+second input corresponds to float
+third input corresponds to char
+fourth input correspond to string
+fifth input correspond to String
+Constraints
+
+No Constraints
+
+Output Format
+
+execute the user inputs with the statemets
+Sample Input 0
+
+23
+45.56
+A
+hello
+hello world
+Sample Output 0
+
+Integer is 23
+Float is 45.56
+Character is A
+Strings are hello and hello world
+
+INPUT:
+
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+import math
+num = int(input())
+flt = float(input())
+ch = input()
+str1 = input()
+str2 = input() 
+print("Integer is",num) 
+print("Float is",flt) 
+print("Character is",ch) 
+print("Strings are",str1, "and",str2) 
+
+OUTPUT:
+
+Input (stdin)
+
+23
+45.56
+A
+hello
+hello world
+Your Output (stdout)
+
+Integer is 23
+Float is 45.56
+Character is A
+Strings are hello and hello world
+Expected Output
+
+Integer is 23
+Float is 45.56
+Character is A
+Strings are hello and hello world
