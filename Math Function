@@ -1,0 +1,70 @@
+kumar wants to know how the math functions are working in programming.could you please help him to write the program.
+
+Input Format
+
+First input corresponds to float is for floor,ceil and round
+second input corresponds to integer is for sqrt value
+third input corresponds to integer is for base value
+fourth input corresponds to integer is for power value
+Constraints
+
+No Constraints
+
+Output Format
+
+execute the values depends on the sample output format.
+Sample Input 0
+
+67.6734
+16
+5
+2
+Sample Output 0
+
+67
+68
+68
+4
+25
+
+INPUT:
+
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+import math
+float_input = float(input())
+sqrt_input = int(input())
+base_input = int(input())
+power_input = int(input())
+floor_value = math.floor(float_input)
+ceil_value = math.ceil(float_input)
+round_value = round(float_input)
+sqrt_value = int(math.sqrt(sqrt_input))
+power_result = int(math.pow(base_input, power_input))
+print(int(floor_value))
+print(int(ceil_value))
+print(int(round_value))
+print(sqrt_value)
+print(power_result)
+
+OUTPUT:
+
+Input (stdin)
+
+67.6734
+16
+5
+2
+Your Output (stdout)
+
+67
+68
+68
+4
+25
+Expected Output
+
+67
+68
+68
+4
+25
