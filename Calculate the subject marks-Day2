@@ -1,0 +1,65 @@
+John wants to know how to calculate the subject marks.could you please help him to learn marks calculation in programming.
+
+Input Format
+
+First input consists of String
+Second input consists of integer
+Third input consists of integer
+Fourth input consists of integer
+Fifth input consists of integer
+Sixth input consists of integer
+Constraints
+
+No Constraints
+
+Output Format
+
+Execute the total and Average Marks.
+Sample Input 0
+
+John
+100
+99
+100
+100
+99
+Sample Output 0
+
+Name of the Student:John
+Total marks:498
+Average marks:99.6
+
+INPUT:
+
+name = input()
+mark1 = int(input())
+mark2 = int(input())
+mark3 = int(input())
+mark4 = int(input())
+mark5 = int(input())
+total = mark1 + mark2 + mark3 + mark4 + mark5
+average = total / 5
+print("Name of the Student:" + name)
+print("Total marks:" + str(total))
+print("Average marks:" + str(average))
+
+OUTPUT:
+
+Input (stdin)
+
+John
+100
+99
+100
+100
+99
+Your Output (stdout)
+
+Name of the Student:John
+Total marks:498
+Average marks:99.6
+Expected Output
+
+Name of the Student:John
+Total marks:498
+Average marks:99.6
