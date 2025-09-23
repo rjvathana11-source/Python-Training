@@ -1,0 +1,42 @@
+Diya wants to know how the decimal digit values are performing in programming.could you please help her to learn the decimal formatting.
+
+Input Format
+
+input consists of float
+Constraints
+
+No Constraints
+
+Output Format
+
+execute the values depends on the sample output format.
+Sample Input 0
+
+45.3456
+Sample Output 0
+
+45.34
+45.35
+
+INPUT:
+
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+num = float(input().strip())
+truncate_val = int(num * 100) / 100
+round_val = round(num, 2)
+print(f"{truncate_val:.2f}")
+print(f"{round_val:.2f}")
+
+OUTPUT:
+
+Input (stdin)
+
+45.3456
+Your Output (stdout)
+
+45.34
+45.35
+Expected Output
+
+45.34
+45.35
