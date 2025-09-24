@@ -1,0 +1,129 @@
+ohra went to a movie with his friends in a Wave theatre and during break time he bought pizzas, puffs and cool drinks. Consider the following prices :
+
+Rs.100/pizza Rs.20/puffs Rs.10/cooldrink Generate a bill for What Vohra has bought.
+
+Input Format
+
+Sample Input 1:
+
+Enter the no of pizzas bought:10
+
+Enter the no of puffs bought:12
+
+Enter the no of cool drinks bought:5
+
+Constraints
+
+Constraints: No Constraints
+
+Output Format
+
+Sample Output 1:
+
+Bill Details
+
+No of pizzas:10
+
+No of puffs:12
+
+No of cooldrinks:5
+
+Total price=1290
+
+Sample Input 0
+
+12
+7
+3
+Sample Output 0
+
+Bill Details
+No of pizzas:12
+No of puffs:7
+No of cooldrinks:3
+Total price=1370
+ENJOY THE SHOW!!!
+Sample Input 1
+
+11
+12
+19
+Sample Output 1
+
+Bill Details
+No of pizzas:11
+No of puffs:12
+No of cooldrinks:19
+Total price=1530
+ENJOY THE SHOW!!!
+
+INPUT:
+
+def generate_bill(num_pizzas, num_puffs, num_cooldrinks):
+    pizza_price = 100
+    puffs_price = 20
+    cooldrink_price = 10
+    total_price = (num_pizzas * pizza_price) + (num_puffs * puffs_price) + (num_cooldrinks * cooldrink_price)
+    print("Bill Details")
+    print(f"No of pizzas:{num_pizzas}")
+    print(f"No of puffs:{num_puffs}")
+    print(f"No of cooldrinks:{num_cooldrinks}")
+    print(f"Total price={total_price}")
+    print("ENJOY THE SHOW!!!")
+try:
+    num_pizzas = int(input())
+    num_puffs = int(input())
+    num_cooldrinks = int(input())
+    generate_bill(num_pizzas, num_puffs, num_cooldrinks)
+except ValueError:
+    print("Invalid input. Please enter integers for the number of items.")
+
+OUPUT:
+TESTCASE 1:
+
+Input (stdin)
+
+12
+7
+3
+Your Output (stdout)
+
+Bill Details
+No of pizzas:12
+No of puffs:7
+No of cooldrinks:3
+Total price=1370
+ENJOY THE SHOW!!!
+Expected Output
+
+Bill Details
+No of pizzas:12
+No of puffs:7
+No of cooldrinks:3
+Total price=1370
+ENJOY THE SHOW!!!
+
+TESTCASE:
+
+Input (stdin)
+
+11
+12
+19
+Your Output (stdout)
+
+Bill Details
+No of pizzas:11
+No of puffs:12
+No of cooldrinks:19
+Total price=1530
+ENJOY THE SHOW!!!
+Expected Output
+
+Bill Details
+No of pizzas:11
+No of puffs:12
+No of cooldrinks:19
+Total price=1530
+ENJOY THE SHOW!!!
+
